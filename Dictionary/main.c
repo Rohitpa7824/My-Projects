@@ -3,15 +3,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<string.h>
-int address[27]={0},totalwords=1;
-void printfile(FILE *);
-void line();
-void initialize(FILE *);
-void searchbyindex(FILE *);
-void getword(FILE *,int,char word[]);
-int search(FILE *,char ex[],int container[]);
-void firstcap(char s[]);
-void getrecordbyindex(FILE *p);
+
+int address[27]={0}; //This indicates the byte address of words starting with new alphabets from the database
+int totalwords=1;
+void printfile(FILE *); //To  print the whole dictionary
+void line(); //Print the line of '-'
+void initialize(FILE *); //Initialise the address array and totalwords array 
+void searchbyindex(FILE *); //Searches a given word on base of index
+void getword(FILE *,int,char word[]); //Fetches the word and copies to word array
+int search(FILE *,char ex[],int container[]); //Searches the input word from the dictionary and returns byte address of matched words into container array
+void firstcap(char s[]); //Capitalizes first letter of word
+void getrecordbyindex(FILE *p); //Prints the record
 
 int main()
 {
