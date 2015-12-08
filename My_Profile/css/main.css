@@ -1,0 +1,176 @@
+.main{
+	padding-top: 10px;
+	background-image:url("../images/b1.jpg");
+	color: #fff;
+}
+
+.icons{
+	height: 200px;
+}
+
+.avatar{
+	margin-left: 25px;
+	margin-top: 25px;
+	height: 150px;
+	 -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.avatar:hover{
+	margin-left: 0px;
+	margin-top:0px;
+	height: 200px;
+}
+
+.info{
+	margin-left: 25px;
+	margin-top: 25px;
+	height: 150px;
+	 -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.info:hover{
+	margin-left: 0px;
+	margin-top:0px;
+	height: 180px;
+}
+
+.books{
+	margin-left: 25px;
+	margin-top: 25px;
+	height: 150px;
+	 -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.books:hover{
+	margin-left: 0px;
+	margin-top:0px;
+	height: 200px;
+}
+
+.activity{
+	margin-left:10px; 
+	margin-top: 30px; 
+	width: 140px;
+	 -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.activity:hover{
+	margin-left: 0px;
+	margin-top: 20px;
+	width: 170px;
+}
+
+.work{
+	margin-left: 5px;
+	margin-top: 25px;
+	height: 130px;	
+	 -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.work:hover{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 150px;
+}
+
+.mail{
+	margin-left: 0px;
+	margin-top: 45px;
+	width: 150px;
+	 -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.mail:hover{
+	margin-left: 0px;
+	margin-top: 40px;
+	width: 170px;
+}
+
+.default-text{
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 20px;
+	padding-top: 150px;	
+}
+
+.default-text p{
+	font-size: 40px;
+}
+
+.contents{
+	margin-top: 30px;
+	height: 413px;
+}
+
+.hidden{
+	display: none;
+}
+
+.mypic{
+	margin-left: 24%;
+	width: 70%;
+}
+
+.avatar-text{
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.info-text{
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.books-text{
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.activity-text{
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.work-text{
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.mail-text{
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.mini_icons{
+	height: 70px;
+}
