@@ -6,4 +6,4 @@ This is a collection of projects that I do after learning anything new.
   * C++
   * Html
   * CSS
-  * Javascript
+  * Javascript, Jquery, JqueryUI
