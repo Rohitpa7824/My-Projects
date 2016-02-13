@@ -1,0 +1,49 @@
+<html ng-app="hotel">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>SuryaNagar Hotel - Spices for Tastebuds</title>
+	<script type="text/javascript" src="../src/angular.min.js"></script>
+	<script type="text/javascript" src="../src/app.js"></script>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/main.css"></link>
+</head>
+<body class="container-fluid container" ng-controller="menuitem">
+	<div ng-include="'name.html'" >
+	</div>
+	<div class="row">
+		<a href="../index.html"><div class="col-md-6 col-xs-6" id="menubu">
+			Home
+		</div></a>
+		<a href="contactus.html"><div class="col-md-6 col-xs-6" id="contbu">
+			Contact Us
+		</div></a>
+	</div>
+	<div id="menu">
+		<div id="menulab">
+			MENU 
+		</div>
+		<div ng-repeat="item in items">
+			<br>
+			<div class="row">
+				<div class="col-md-5">
+					<img ng-src={{item.url}} id="itemimg"/>
+				</div>
+				<div class="col-md-7">
+					<div id="itemname">
+						{{item.item}}
+					</div>
+					<br>
+					<div id="itemdes">
+						{{item.disp}}
+					</div>
+				</div>
+				<br>
+			</div>
+			<br>
+			<div id="line"></div>
+		</div>
+	</div>
+</body>
+</html>

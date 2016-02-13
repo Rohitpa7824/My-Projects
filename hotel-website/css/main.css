@@ -1,0 +1,233 @@
+body{
+	margin: 0px 0px 0px 0px;
+}
+
+@media only screen and (max-device-width: 768px){
+	.container-fluid{
+		padding: 0px 0px 0px 0px;
+	}
+	#name{
+		height: 29%;
+		background-color: #88f;
+		color: white;
+		letter-spacing: 4px;
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		padding-top: 6%;
+	}
+	#spaninf{
+		font-size: 20px;
+		padding-left: 20px;
+		margin-top: 10px;
+		font-weight: normal;
+		color: #439;
+	}
+	#spancname{
+		font-size: 20px;
+		letter-spacing: 2px;
+		font-weight: bold;
+		color: #701;
+	}
+	#spanrev{
+		font-size: 18px;
+		letter-spacing: 1px;
+		font-weight: normal;
+	}
+	#actreviews{
+		padding-left: 20px;
+		padding-right: 20px
+	}
+	#menubu{
+		height: 100px;
+		font-size: 23px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		padding-top: 35px;
+		background-color: #2de;
+		text-align: center;
+	}
+	#contbu{
+		height: 100px;
+		font-size: 25px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		padding-top: 35px;
+		text-align: center;
+		background-color: #267ff0;
+	}
+}
+
+@media only screen and (min-device-width: 768px){
+	#name{
+		height: 120px;
+		background-color: #88f;
+		color: white;
+		letter-spacing: 4px;
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		padding-top: 30px;
+	}
+	#spaninf{
+		font-size: 30px;
+		padding-left: 60px;
+		color: blue;
+		font-weight: bold;
+	}
+	#spancname{
+		font-size: 25px;
+		letter-spacing: 2px;
+		font-weight: bold;
+		color: #701;
+	}
+	#spanrev{
+		font-size: 23px;
+		letter-spacing: 1px;
+		font-weight: normal;
+	}
+	#actreviews{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#menubu, #contbu{
+		height: 50px;
+		font-size: 30px;
+	}
+	#menubu{
+		height: 100px;
+		font-size: 23px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		padding-top: 35px;
+		background-color: #2de;
+		text-align: center;
+		color:#850B4C;
+	}
+	#contbu{
+		height: 100px;
+		font-size: 25px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		padding-top: 35px;
+		text-align: center;
+		background-color: #267ff0;
+		color:#850B4C;
+	}
+}
+
+#menubu:hover{
+	background-color: #8391DC;
+}
+#contbu:hover{
+	background-color: #0E6297;
+}
+#name:hover{
+	background-color: #18a;
+}
+#namespan{
+	color: yellow;
+}
+#tagline{
+	height: 80px;
+	background-color: #7bc;
+	color: white;
+	letter-spacing: 1.5px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+#tagline:hover{
+	background-color: #f1c;
+}
+#revbck{
+	background-color: #f51;
+}
+#review{
+	color: #fff;
+}
+#revinfo{
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+	font-size: 30px;
+}
+
+#line{
+	width: 100%;
+	border-bottom: 2px dashed black;
+	margin-top: 5px;
+}
+
+#menulab{
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 20px;
+	
+	height: 80px;
+}
+
+
+#menu{
+	background-color: #FA9B60;
+}
+
+#itemimg{
+	border-radius: 50px;
+	margin-left: 30px;
+}
+
+#itemname{
+	font-size:25px;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	margin-top: 20px; 
+	color: #cf2d4a;
+}
+
+#itemdes{
+	font-size: 20px;
+	letter-spacing: 1px;
+	color:#c90e30;
+}
+
+#restaurantimg{
+	width: 100%;
+	margin-top: 20px;
+}
+
+#chefimg{
+	width: 80%;
+	margin-top: 60px;
+}
+
+#contactus{
+	background-color: #dff27f;
+}
+
+#cont{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#dorev{
+	text-align: center;
+	letter-spacing: 1.5px;
+	font-size: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.revname{
+
+}
