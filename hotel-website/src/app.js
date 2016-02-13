@@ -30,6 +30,8 @@ app.controller('review',function($scope){
 		//$scope.newr={Cname: $scope.newcname, Review: $scope.newrev};
 		//$scope.reviews[4]=$scope.rewr;
 		$scope.reviews.push({Cname: $scope.newcname, Review: $scope.newrev});
+		$scope.newcname="";
+		$scope.newrev="";
 		//console.log($scope.reviews[3]);
 		//console.log($scope.reviews[4]);
 		
