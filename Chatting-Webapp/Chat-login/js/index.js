@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$(".loginform").css({"display":"none"})
+		$(".loginform").fadeIn("slow");
+	$(".registerselection").click(function(){
+		$(".container").css({"height":"650px"});
+		$(".registerform").css({"display":"none"})
+		$(".registerform").fadeIn("slow");
+	});
+	$(".loginselection").click(function(){
+		$(".container").css("height","475px");
+		$(".loginform").css({"display":"none"})
+		$(".loginform").fadeIn("slow");
+	});
+});
