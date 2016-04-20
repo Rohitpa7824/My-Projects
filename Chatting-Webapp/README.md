@@ -1,6 +1,6 @@
 #Chatting Web-App
 
-This is a Web-App that through which two people will be able to send messages to each other.. It is not hosted yet, but it will be hosted once it is fully done.
+This is a Web-App, through which two people will be able to send messages to each other.. It is not hosted yet, but it will be hosted once it is fully done.
 
 ####This web-app is being created by me and [Nilesh Kevlani](https://github.com/njkevlani)
 
