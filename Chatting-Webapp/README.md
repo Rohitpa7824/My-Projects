@@ -5,9 +5,10 @@ This is a Web-App, through which two people will be able to send messages to eac
 ####This web-app is being created by me and [Nilesh Kevlani](https://github.com/njkevlani)
 
 ##Bugs::
-* Every new msg from second person needs to be displayed after refresh.
-* The page is displayed from the Top.. not from bottom.
-* Page refresh triggers extra set of messages to be entered into Database.
+- [x] Every new msg from second person needs to be displayed after refresh.
+- [x] The page is displayed from the Top.. not from bottom.
+- [x] Page refresh triggers extra set of messages to be entered into Database.
+- [ ] Sometimes extra message is outputted even though the sender has not sent message
 
 ##Features to be added::
 * Support for multiple users.
