@@ -2,7 +2,7 @@
 	session_start();
 	if(isset($_SESSION['login-user']))
 	{
-		header("location: http://localhost/hacknight2c/chat");
+		header("location: http://localhost/Chatting-Webapp/Chat");
 	}
 
 ?>

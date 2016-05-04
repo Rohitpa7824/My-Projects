@@ -5,6 +5,6 @@
 	
 	session_destroy(); 
 
-	header("Location: http://localhost/hacknight2c/Chat-login"); 
+	header("Location: http://localhost/Chatting-Webapp/Chat-login/"); 
 
 ?>

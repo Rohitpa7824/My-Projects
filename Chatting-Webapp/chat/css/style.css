@@ -43,6 +43,10 @@ body {
   background-color: rgba(25, 147, 147, 0.2);
 }
 
+.hidden{
+  display: none;
+}
+
 /* Chat - Avatar */
 .chat-thread li:before {
   position: absolute;

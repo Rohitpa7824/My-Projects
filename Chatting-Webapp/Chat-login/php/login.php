@@ -15,7 +15,7 @@
 		$_SESSION['login-user']=$email;
 		mysql_close($con); // Closing connection
 
-		header('Location: http://localhost/hacknight2c/chat');
+		header('Location: http://localhost/Chatting-Webapp/Chat/');
 		//echo "Hello";
 		exit();	
 	}
