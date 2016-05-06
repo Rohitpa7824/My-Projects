@@ -5,5 +5,6 @@ This is a Web-App, to demonstrate the shopping process and cart concept thorugh 
 ####This web-app is created by me and [Nilesh Kevlani](https://github.com/njkevlani)
 ##Features to be added::
 * Generate payout slip.
-* Different Images for each new item.
-####Note :: This web-App is hosted the way it is uploaded. So it will not work if you use on your machine as localhost.. 
+* Different Images for each new item
+
+#### Note :: This web-App is hosted the way it is uploaded. So it will not work if you use on your machine as localhost.. 
